@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js"></script>
+
+</head>
+
+<body>
+    <div class="mainContainer">
+        <h1>Calculadora</h1>
+        <div class="container">
+            <input type="text" id="campo1">
+            <input type="text" id="campo2">
+        </div>
+        <div class="container">
+            <button class="btn suma" onclick="suma()">+</button>
+            <button class="btn resta" onclick="resta()">-</button>
+            <button class="btn multiplicacion" onclick="multiplicacion()">*</button>
+            <button class="btn division" onclick="division()">/</button>
+        </div>
+        <div class="container">
+            <button class="btn raiz" onclick="raiz()">raiz</button>
+            <button class="btn potencia" onclick="potencia()">potencia</button>
+        </div>
+        <h2>Resultado</h2>
+        <div class="container">
+            <input type="text" id="resultado">
+        </div>
+        <div class="container">
+            <button class="btn clear" onclick="reset()">C</button>
+            <button class="btn random" onclick="random()">random</button>
+            <button class="btn absoluto" onclick="valorAbsoluto()">Absoluto</button>
+            <button class="btn floor" onclick="floor()">floor</button>
+        </div>
+        <div class="container">
+            <button class="btn round" onclick="round()">round</button>
+            <button class="btn ceil" onclick="ceil()">ceil</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
